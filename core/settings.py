@@ -130,7 +130,7 @@ LOGIN_URL = '/account/login/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Stripe Payment
-STRIPE_PUBLISHABLE_KEY = ''
+os.environ.setdefault('STRIPE_PUBLISHABLE_KEY', '')
 STRIPE_SECRET_KEY = ''
 
 STRIPE_ENDPOINT_SECRET = ''

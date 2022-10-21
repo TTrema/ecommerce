@@ -13,3 +13,7 @@ Feito:
 -Carrinho de compras
 
 -Usar Coverage.py para construir os testes necessários 
+
+-Novo sistema de contas
+
+-Integração com o sistema de pagamento Stripe
