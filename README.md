@@ -1,4 +1,4 @@
-Fazendo um site de venda de livros com base no tutorial:
+Fazendo um site de vendas com base no tutorial:
 
 https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_
 
@@ -17,3 +17,8 @@ Feito:
 -Novo sistema de contas
 
 -Integração com o sistema de pagamento Stripe
+
+-Mudança de uma loja de venda livros para um loja de vendas gerais
+
+-Categorias e Produtos refeitas usando MPTT
+

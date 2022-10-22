@@ -1,0 +1,8 @@
+django
+black
+isort
+django-mptt
+pillow
+stripe
+coverage
+six

@@ -71,7 +71,7 @@ html, body, p, div{
     }
 }
 
-#Basket Menu
+/* Basket Menu */
 
 .basket-qty{
     color: #fff;
@@ -102,9 +102,9 @@ html, body, p, div{
     background-color: #fff;
 }
 
+
 /* Footer */
 
 .footer > div > div > ul > li{
     padding-bottom:8px;
 }
-
