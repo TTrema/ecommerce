@@ -1,6 +1,6 @@
 Fazendo um site de vendas com base no tutorial:
 
-https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_
+https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_
 
 Feito:
 

@@ -57,4 +57,12 @@ urlpatterns = [
         TemplateView.as_view(template_name="account/dashboard/delete_confirm.html"),
         name="delete_confirmation",
     ),
+    path("addresses/", views.view_address, name="addresses"),
+    path("add_address/", views.add_address, name="add_address"),
+    path("addresses/edit/<slug:id>/", views.edit_address, name="edit_address"),
+    path("addresses/delete/<slug:id>/", views.delete_address, name="delete_address"),
+    path("addresses/set_default/<slug:id>/", views.set_default, name="set_default"),
+    # wish list
+    path("wishlist", views.wishlist, name="wishlist"),
+    path("wishlist/add_to_wishlist/<int:id>", views.add_to_wishlist, name="user_wishlist"),
 ]
