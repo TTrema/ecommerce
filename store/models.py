@@ -112,6 +112,8 @@ class Product(models.Model):
     created_at = models.DateTimeField(_("Created at"), auto_now_add=True, editable=False)
     updated_at = models.DateTimeField(_("Updated at"), auto_now=True)
     users_wishlist = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name="user_wishlist", blank=True)
+    
+    
 
     class Meta:
         ordering = ("-created_at",)
